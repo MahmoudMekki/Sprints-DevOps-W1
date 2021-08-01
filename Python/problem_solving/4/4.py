@@ -1,9 +1,7 @@
 def dublicatedr_removal(lst):
     dict ={}
-
     for v in lst:
         dict[v]=v
-
     return dict
 
 lst_str = input("Enter your numbers:").split()
